@@ -11,8 +11,11 @@ VALUES
 ('Jane', 'Doe', 95),
 ('Sally', 'Smith', 100);
 
-UPDATE students
-SET grade = 100
+-- UPDATE students
+-- SET grade = 100
+-- WHERE first_name = 'John';
+
+DELETE FROM students
 WHERE first_name = 'John';
 
 SELECT * FROM students;
